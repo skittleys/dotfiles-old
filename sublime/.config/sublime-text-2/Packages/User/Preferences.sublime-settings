@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Base16 Color Schemes/base16-atelierlakeside.dark.tmTheme",
+	"font_face": "Monaco for Powerline",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_classic_tabs": false,
+	"soda_folder_icons": true,
+	"theme": "Soda Dark.sublime-theme"
+}

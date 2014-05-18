@@ -1,0 +1,436 @@
+{
+	"folder_history":
+	[
+		"/usr/lib/prezto",
+		"/usr/lib/prezto/runcoms"
+	],
+	"last_window_id": 3,
+	"settings":
+	{
+		"new_window_height": 634.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 318.0,
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: i",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 243.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/cm/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 111.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 808.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"alias",
+						"aliases"
+					],
+					[
+						"zs",
+						"zshenv"
+					],
+					[
+						"zp",
+						"zprofile"
+					],
+					[
+						"zlo",
+						"zlogout"
+					],
+					[
+						"z",
+						"zlogin"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/usr/lib/prezto/modules/utility/init.zsh",
+					"settings":
+					{
+						"buffer_size": 5601,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/usr/lib/prezto/modules/completion/init.zsh",
+					"settings":
+					{
+						"buffer_size": 6788,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 318.0,
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"Package Control: i",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 435.0
+			},
+			"console":
+			{
+				"height": 243.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/usr/lib/prezto/modules/editor/init.zsh",
+				"/usr/lib/prezto/modules/utility/init.zsh",
+				"/home/cm/.config/sublime-text-2/Packages/Base16 Color Schemes/base16-atelierlakeside.dark.tmTheme",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/Shell-Unix-Generic.tmLanguage",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/Miscellaneous.tmPreferences",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/elif-..-(elif).sublime-snippet",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/case-..-esac-(case).sublime-snippet",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/#!-usr-bin-env-(!env).sublime-snippet",
+				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/package-metadata.json",
+				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/Shell-Unix-Generic.sublime-settings",
+				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/README.md",
+				"/usr/lib/prezto/modules/environment/init.zsh",
+				"/home/cm/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/cm/.bashrc",
+				"/usr/lib/prezto/modules/completion/init.zsh",
+				"/usr/lib/prezto/runcoms/zprofile",
+				"/usr/lib/prezto/runcoms/zpreztorc",
+				"/usr/lib/prezto/modules/history/init.zsh",
+				"/usr/lib/prezto/init.zsh",
+				"/home/cm/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+				"/usr/lib/prezto/runcoms/README.md",
+				"/home/cm/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 36.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"tab",
+					"comment",
+					"font"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/usr/lib/prezto"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/usr/lib/prezto/modules/utility/init.zsh",
+							"settings":
+							{
+								"buffer_size": 5601,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1879,
+										1879
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 537.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/usr/lib/prezto/modules/completion/init.zsh",
+							"settings":
+							{
+								"buffer_size": 6788,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2397,
+										2397
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 599.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,56,203,864,934,887,969",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 147.0,
+			"status_bar_visible": true,
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
