@@ -1,29 +1,56 @@
 {
 	"folder_history":
 	[
+		"/usr/share/zsh",
 		"/usr/lib/prezto",
+		"/usr/lib/prezto/modules",
+		"/usr/lib/prezto/modules/prompt/functions",
 		"/usr/lib/prezto/runcoms"
 	],
-	"last_window_id": 3,
+	"last_window_id": 5,
 	"settings":
 	{
-		"new_window_height": 634.0,
+		"new_window_height": 920.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"alias",
+						"aliases"
+					],
+					[
+						"zs",
+						"zshenv"
+					],
+					[
+						"zp",
+						"zprofile"
+					],
+					[
+						"zlo",
+						"zlogout"
+					],
+					[
+						"z",
+						"zlogin"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 318.0,
+				"height": 283.0,
 				"selected_items":
 				[
 					[
 						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ik",
 						"Package Control: Install Package"
 					],
 					[
@@ -43,7 +70,7 @@
 			},
 			"console":
 			{
-				"height": 243.0
+				"height": 120.0
 			},
 			"distraction_free":
 			{
@@ -56,11 +83,50 @@
 			},
 			"file_history":
 			[
+				"/home/cm/.config/openbox/rc.xml",
+				"/home/cm/.config/pytyle3/keybind.py",
+				"/home/cm/.zkbd/linux-unknown-linux-gnu",
+				"/etc/inputrc",
+				"/home/cm/.inputrc",
+				"/home/cm/.config/openbox/rc.xml.bak",
+				"/home/cm/.config/terminator/config",
+				"/usr/lib/python2.7/site-packages/terminatorlib/keybindings.py",
+				"/usr/share/themes/Mire v2_Blue/gtk-3.0/gtk-widgets.css",
+				"/usr/share/themes/Mire v2_Blue/gtk-3.0/gtk.css",
+				"/usr/share/themes/Mire v2_Blue/gtk-3.0/settings.ini",
+				"/usr/share/terminfo/x/xterm",
+				"/home/cm/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/cm/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/cm/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/cm/.themes/axonkolorish-cool/openbox-3/themerc",
+				"/usr/lib/python2.7/site-packages/terminatorlib/keybindings.pyc",
+				"/usr/lib/prezto/modules/utility/init.zsh",
+				"/usr/lib/prezto/modules/completion/init.zsh",
+				"/usr/share/themes/Mire_v2_pink/openbox-3/themerc",
+				"/home/cm/.conkyrc",
+				"/usr/lib/prezto/modules/editor/init.zsh",
+				"/home/cm/.config/sublime-text-2/Packages/Base16 Color Schemes/base16-atelierlakeside.dark.tmTheme",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/Shell-Unix-Generic.tmLanguage",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/Miscellaneous.tmPreferences",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/elif-..-(elif).sublime-snippet",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/case-..-esac-(case).sublime-snippet",
+				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/#!-usr-bin-env-(!env).sublime-snippet",
+				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/package-metadata.json",
+				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/Shell-Unix-Generic.sublime-settings",
+				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/README.md",
+				"/usr/lib/prezto/modules/environment/init.zsh",
+				"/home/cm/.bashrc",
+				"/usr/lib/prezto/runcoms/zprofile",
+				"/usr/lib/prezto/runcoms/zpreztorc",
+				"/usr/lib/prezto/modules/history/init.zsh",
+				"/usr/lib/prezto/init.zsh",
+				"/home/cm/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+				"/usr/lib/prezto/runcoms/README.md",
 				"/home/cm/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 36.0
 			},
 			"find_in_files":
 			{
@@ -74,6 +140,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"11",
+					"separator\nsepar",
+					"separator",
+					"widget",
+					"tab",
+					"comment",
+					"font"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -140,14 +213,14 @@
 				],
 				"width": 0.0
 			},
-			"show_minimap": true,
+			"show_minimap": false,
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 111.0,
-			"status_bar_visible": true
+			"side_bar_width": 186.0,
+			"status_bar_visible": false
 		},
-		"new_window_width": 808.0
+		"new_window_width": 486.0
 	},
 	"windows":
 	[
@@ -180,32 +253,20 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/usr/lib/prezto/modules/utility/init.zsh",
-					"settings":
-					{
-						"buffer_size": 5601,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/usr/lib/prezto/modules/completion/init.zsh",
-					"settings":
-					{
-						"buffer_size": 6788,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 318.0,
+				"height": 283.0,
 				"selected_items":
 				[
 					[
 						"Package Control: ",
-						"Package Control: List Packages"
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: ik",
+						"Package Control: Install Package"
 					],
 					[
 						"Package Control: i",
@@ -224,7 +285,7 @@
 			},
 			"console":
 			{
-				"height": 243.0
+				"height": 120.0
 			},
 			"distraction_free":
 			{
@@ -237,8 +298,41 @@
 			},
 			"file_history":
 			[
+				"/usr/lib/prezto/modules/completion/init.zsh",
+				"/home/cm/prompt_theme_config",
+				"/usr/lib/prezto/modules/prompt/functions/prompt_agnoster_setup",
+				"/usr/lib/prezto/modules/prompt/functions/prompt_powerline_setup",
+				"/usr/lib/prezto/runcoms/zpreztorc",
+				"/home/cm/temp",
+				"/usr/lib/prezto/modules/prompt/init.zsh",
+				"/usr/lib/prezto/modules/prompt/functions/git-omz.zsh",
+				"/usr/lib/prezto/modules/prompt/functions/get_short_path.zsh",
+				"/mnt/gentoo/etc/portage/make.conf",
+				"/mnt/gentoo/usr/share/portage/config/make.conf.example",
+				"/home/cm/version-check.sh",
+				"/home/cm/dotfiles/bash/tryme.sh",
 				"/usr/lib/prezto/modules/editor/init.zsh",
+				"/usr/share/zsh/functions/Prompts/prompt_adam2_setup",
+				"/home/cm/.config/openbox/rc.xml",
+				"/home/cm/.config/pytyle3/keybind.py",
+				"/home/cm/.zkbd/linux-unknown-linux-gnu",
+				"/etc/inputrc",
+				"/home/cm/.inputrc",
+				"/home/cm/.config/openbox/rc.xml.bak",
+				"/home/cm/.config/terminator/config",
+				"/usr/lib/python2.7/site-packages/terminatorlib/keybindings.py",
+				"/usr/share/themes/Mire v2_Blue/gtk-3.0/gtk-widgets.css",
+				"/usr/share/themes/Mire v2_Blue/gtk-3.0/gtk.css",
+				"/usr/share/themes/Mire v2_Blue/gtk-3.0/settings.ini",
+				"/usr/share/terminfo/x/xterm",
+				"/home/cm/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/cm/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/cm/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/cm/.themes/axonkolorish-cool/openbox-3/themerc",
+				"/usr/lib/python2.7/site-packages/terminatorlib/keybindings.pyc",
 				"/usr/lib/prezto/modules/utility/init.zsh",
+				"/usr/share/themes/Mire_v2_pink/openbox-3/themerc",
+				"/home/cm/.conkyrc",
 				"/home/cm/.config/sublime-text-2/Packages/Base16 Color Schemes/base16-atelierlakeside.dark.tmTheme",
 				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/Shell-Unix-Generic.tmLanguage",
 				"/home/cm/tmp/subl-shell/ShellScript.sublime-package/Miscellaneous.tmPreferences",
@@ -249,11 +343,8 @@
 				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/Shell-Unix-Generic.sublime-settings",
 				"/home/cm/.config/sublime-text-2/Packages/Dotfiles Syntax Highlighting/README.md",
 				"/usr/lib/prezto/modules/environment/init.zsh",
-				"/home/cm/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/cm/.bashrc",
-				"/usr/lib/prezto/modules/completion/init.zsh",
 				"/usr/lib/prezto/runcoms/zprofile",
-				"/usr/lib/prezto/runcoms/zpreztorc",
 				"/usr/lib/prezto/modules/history/init.zsh",
 				"/usr/lib/prezto/init.zsh",
 				"/home/cm/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
@@ -276,6 +367,16 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"get_sh",
+					"time",
+					"host",
+					"time\ntime",
+					"time",
+					"sudo",
+					"11",
+					"separator\nsepar",
+					"separator",
+					"widget",
 					"tab",
 					"comment",
 					"font"
@@ -297,70 +398,16 @@
 			[
 				{
 					"path": "/usr/lib/prezto"
+				},
+				{
+					"path": "/usr/share/zsh"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 1,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/usr/lib/prezto/modules/utility/init.zsh",
-							"settings":
-							{
-								"buffer_size": 5601,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1879,
-										1879
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 537.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/usr/lib/prezto/modules/completion/init.zsh",
-							"settings":
-							{
-								"buffer_size": 6788,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2397,
-										2397
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 599.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -370,7 +417,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 32.0
 			},
 			"layout":
 			{
@@ -395,7 +442,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,0,0,0,56,203,864,934,887,969",
+			"position": "0,0,0,0,0,5,33,1035,963,1920,985",
 			"replace":
 			{
 				"height": 0.0
@@ -421,8 +468,8 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 147.0,
-			"status_bar_visible": true,
+			"side_bar_width": 81.0,
+			"status_bar_visible": false,
 			"window_id": 3,
 			"workspace_name": ""
 		}

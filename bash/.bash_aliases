@@ -30,3 +30,7 @@ alias l='ls -CF --color=auto'
 
 alias less='less -RXF' # R for colours, XF makes it act like cat if only 1 pg
 
+###########################
+
+# by having a space at the end of 'sudo', it expands the next alias too!
+alias sudo='sudo '
