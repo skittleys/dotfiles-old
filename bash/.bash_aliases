@@ -1,7 +1,7 @@
 # From default bashrc
 
 alias free='free -m'                      # show sizes in MB
-alias np='nano PKGBUILD'
+#alias np='nano PKGBUILD'
 
 ############
 
