@@ -32,7 +32,10 @@ alias less='less -RXF' # R for colours, XF makes it act like cat if only 1 pg
 
 alias free='free -m'                      # show sizes in MB
 alias np='nano PKGBUILD'
-alias untar='tar -xvf'						# can still use -z, -j, -J 
+alias untar='tar -xvf'										# can still use -z, -j, -J 
+alias dmesg="dmesg -T|sed -e 's|\(^.*'`date +%Y`']\)\(.*\)|\x1b[0;34m\1\x1b[0m - \2|g'"
+alias df='df -h'
+alias du='du -h'
 
 ##########################
 
@@ -42,6 +45,9 @@ alias mad='apt-cache madison'
 alias acs='apt-cache search'
 alias acp='apt-cache policy'
 alias rdep='apt-cache rdepends'
+alias acsh='apt-cache show'
+alias acsp='apt-cache showpkg'
+alias acshp='apt-cache showpkg'
 
 ## apt-get
 alias inst='sudo apt-get install'
@@ -53,4 +59,4 @@ alias abd='sudo apt-get build-dep'
 
 ## other
 alias sapt='sudo aptitude'
-
+alias findpkg='dpkg -l | grep'
