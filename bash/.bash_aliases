@@ -1,10 +1,3 @@
-# From default bashrc
-
-alias free='free -m'                      # show sizes in MB
-alias np='nano PKGBUILD'
-
-############
-
 # Interactive operation...
 alias rm='rm -i'
 alias cp='cp -i'
@@ -24,13 +17,40 @@ alias fgrep='fgrep --color=auto'              # show differences in colour
 alias ls='ls -A --color=auto --file-type'
 alias dir='ls -a --color=auto --format=vertical --file-type'
 alias ll='ls -lhA'
-alias l='ls -CF --color=auto'
 
 ###########################
 
+alias l='less'
 alias less='less -RXF' # R for colours, XF makes it act like cat if only 1 pg
 
 ###########################
 
 # by having a space at the end of 'sudo', it expands the next alias too!
-alias sudo='sudo '
+# alias sudo='sudo '
+
+##########################
+
+alias free='free -m'                      # show sizes in MB
+alias np='nano PKGBUILD'
+alias untar='tar -xvf'						# can still use -z, -j, -J 
+
+##########################
+
+### Debian aliases
+## apt-cache
+alias mad='apt-cache madison'
+alias acs='apt-cache search'
+alias acp='apt-cache policy'
+alias rdep='apt-cache rdepends'
+
+## apt-get
+alias inst='sudo apt-get install'
+alias apt-up='sudo apt-get update && sudo apt-get upgrade'
+alias ad='sudo apt-get update'
+alias ag='sudo apt-get upgrade'
+alias asou='apt-get source'
+alias abd='sudo apt-get build-dep'
+
+## other
+alias sapt='sudo aptitude'
+
