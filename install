@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# make everything more readable and fun with colors!
+color0="\e[0m"
+bold="\e[1m"
+uline="\e[4m"
+black="\e[0;30m"
+red="\e[0;31m"
+green="\e[0;32m"
+yellow="\e[0;33m"
+blue="\e[0;34m"
+purple="\e[0;35m"
+cyan="\e[0;36m"
+white="\e[0;37m"
+bblack="\e[1;30m"
+bred="\e[1;31m"
+bgreen="\e[1;32m"
+byellow="\e[1;33m"
+bblue="\e[1;34m"
+bpurple="\e[1;35m"
+bcyan="\e[1;36m"
+bwhite="\e[1;37m"
+
+usage() {
+	echo "Usage: ${bold}install${color0} [${uline}package manager${color0}]"
+	return 1
+}
+
+# Logging stuff.
+e_header()   { echo -e "\n\e[7;34m$@${color0}"; }
+e_success()  { echo -e "\n${bgreen}✔${color0}  $@"; }
+e_error()    { echo -e "\n${bred}✖${color0}  $@"; }
+e_arrow()    { echo -e "\n${byellow}➜${color0}  $@"; }
+
+e_header "Detecting package manager..."
+if [[ -z "$1" ]]
+	PKGMGR="$1" && e_success "Package manager set as ${bpurple}$1${color0}."
+if [[ -d /etc/apt ]]; then
+	PKGMGR="apt-get install" && e_success "Detected ${bpurple}APT${color0} package manager."
+	echo -e "\nRefreshing package list..."
+	sudo apt-get update && e_success "Package list updated"
+elif [[ -d /etc/pacman ]]; then
+	PKGMGR='pacman -S' && e_success "Detected ${bpurple}pacman${color0} package manager."
+	echo -e "\nRefreshing package list..."
+	sudo pacman -Sy && e_success "Package list updated"
+elif [[ -z ]]
+	e_error "Package manager not detected.\n" && usage
+
+e_header "Downloading and installing packages..."
+pkgs=('zsh' 'vim' 'stow' 'source_highlight')
+for pkg in "${pkgs[@]}"; do
+	$PKGMGR $pkg && e_success "Installed $pkg"
+done
