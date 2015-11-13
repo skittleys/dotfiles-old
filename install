@@ -33,8 +33,10 @@ e_error()    { echo -e "\n${bred}✖${color0}  $@"; }
 e_arrow()    { echo -e "\n${byellow}➜${color0}  $@"; }
 
 e_header "Detecting package manager..."
-if [[ -z "$1" ]]
+if [[ -z "$1" ]]; then
 	PKGMGR="$1" && e_success "Package manager set as ${bpurple}$1${color0}."
+fi
+
 if [[ -d /etc/apt ]]; then
 	PKGMGR="apt-get install" && e_success "Detected ${bpurple}APT${color0} package manager."
 	echo -e "\nRefreshing package list..."
@@ -43,11 +45,12 @@ elif [[ -d /etc/pacman ]]; then
 	PKGMGR='pacman -S' && e_success "Detected ${bpurple}pacman${color0} package manager."
 	echo -e "\nRefreshing package list..."
 	sudo pacman -Sy && e_success "Package list updated"
-elif [[ -z ]]
+else
 	e_error "Package manager not detected.\n" && usage
+fi
 
 e_header "Downloading and installing packages..."
-pkgs=('zsh' 'vim' 'stow' 'source_highlight')
+pkgs=('zsh' 'vim' 'stow' 'source-highlight')
 for pkg in "${pkgs[@]}"; do
-	$PKGMGR $pkg && e_success "Installed $pkg"
+	sudo $PKGMGR $pkg && e_success "Installed $pkg\n"
 done
