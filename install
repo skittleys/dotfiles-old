@@ -50,7 +50,7 @@ else
 fi
 
 e_header "Downloading and installing packages..."
-pkgs=('zsh' 'vim' 'stow' 'source-highlight', 'terminator')
+pkgs=('bash' 'zsh' 'vim' 'stow' 'source-highlight' 'terminator')
 for pkg in "${pkgs[@]}"; do
 	sudo $PKGMGR $pkg && e_success "Installed $pkg\n"
 done
